@@ -61,10 +61,15 @@ public class Reclamo {
         this.codigo = codigo;
         this.descripcion = descripcion;
         this.fecha = fecha;
-        this.estado = Pendiente;
+        this.estado = estado;
         this.categoria = categoria;
         this.ciudadano = ciudadano;
         this.funcionario = funcionario;
+    }
+
+    @Override
+    public String toString() {
+        return "Reclamo{" + "codigo=" + codigo + ", descripcion=" + descripcion + ", fecha=" + fecha + ", estado=" + estado + ", categoria=" + categoria + ", ciudadano=" + ciudadano + ", funcionario=" + funcionario + '}';
     }
    
 }

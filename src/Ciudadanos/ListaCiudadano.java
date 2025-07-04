@@ -8,7 +8,7 @@ package Ciudadanos;
  *
  * @author Student
  */
-public class ListaCiudadano implements MetodosComportamientoCiudadano {
+public class ListaCiudadano implements MetodoComportamientoCiudadano {
 
         private Cuidadano ciudadanos[];
     

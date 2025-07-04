@@ -13,17 +13,20 @@ public class ListaFuncionarios implements MetodosComportamientoGenerico {
         private Funcionario Funcionarios[];
     
     
+        @Override
     public boolean add(Object t) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     
+        @Override
     public boolean remove(Object t) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     
-    public Object find(Object id) {
+        @Override
+    public Funcionario find(Object id) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     

@@ -8,6 +8,13 @@ package Funcionario;
  *
  * @author Student
  */
-public interface MetodosComportamientoGenerico {
+public interface MetodosComportamientoGenerico <T> {
+    
+    public boolean add(T t);
+    
+    public boolean remove(T t);
+    
+    public T find(Object id);
+    
     
 }

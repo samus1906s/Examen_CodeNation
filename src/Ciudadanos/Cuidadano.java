@@ -54,7 +54,6 @@ public class Cuidadano {
         this.cedula = cedula;
         this.nombre = nombre;
         if(!fecha_nacimiento.isAfter(LocalDate.now())){
-            this.fecha_nacimiento = fecha_nacimiento;
         }
         this.correo = correo;
         this.telefono = telefono;

@@ -20,6 +20,7 @@ public class Reclamo {
    private String categoria;
    private Cuidadano ciudadano;
    private Funcionario funcionario;
+   private int tiempo;
 
     public int getCodigo() {
         return codigo;
@@ -57,14 +58,15 @@ public class Reclamo {
         this.categoria = categoria;
     }
 
-    public Reclamo(int codigo, String descripcion, LocalDate fecha, String categoria) {
+    public Reclamo(int codigo, String descripcion, String categoria, int tiempo) {
         this.codigo = codigo;
         this.descripcion = descripcion;
-        this.fecha = fecha;
+        this.fecha = LocalDate.ofYearDay(tiempo, codigo) ;
         this.estado = estado;
         this.categoria = categoria;
         this.ciudadano = ciudadano;
         this.funcionario = funcionario;
+        this.tiempo = tiempo;
     }
 
     @Override
